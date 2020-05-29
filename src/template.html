@@ -1,0 +1,271 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>David Gray | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 mylogo">
+          <img class="img-fluid rounded shadow-lg" height="auto" width="220px" src="./assets/logo.png" alt="Profile Image" />
+        </div>
+        <h1 class="hero-title" class="load-hidden">
+          Hi, I'm <span class="text-color-main">David Gray</span>
+          <br />
+          <br />
+          A driven Software Developer
+          <br /> and Tech enthusiast ;)
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Who am I?</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/Headshot.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                As a child my favourite hobbies were tinkering/learning about everything technology, and making as many friends as
+                possible. So full circle 20 years later it came as a surprise to no one when I mention that I have moved into the
+                Software Development and Management space.
+              </p>
+              <p class="about-wrapper__info-text">
+                As a recent IT graduate at Griffith University I learnt to hone my critical thinking skills and match them with a coding
+                ability to put those thoughts into action. This resulted in me achieving top marks (GPA of 6.9) in all subjects and
+                becoming valedictorian for the Graduate cohort of 2017.
+              </p>
+              <p class="about-wrapper__info-text">
+                My IT experience moved into the Web Development/Publishing space and
+                System/Technical Support Roles where I worked for Griffith University managing their CMS transfer and GamesLinq where I
+                was operations head for transport.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1eBPVFd-NdotUo5s9EeCOC32YilzZWrmS/view?usp=sharing">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Recent Projects and Accomplishments
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Next 5 Races - LadBrokes</h3>
+                <div>
+                  <p class="mb-4">
+                    N5 is a web application that displays the next five races that can be bet on, sorted by the closing date. When a race is
+                    closed, you can no longer bet or view that race.
+                    <br />
+                    <br />
+                    This was a dockerised project using Golang for the API & back-end development along with PostgreSQL for the database and Gin Gonic as the web framework.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Subrising/N5-Web-App">
+                  See Project on GitHub
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/n5-image.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">SmartEye - RedEye Apps</h3>
+                <div>
+                  <p class="mb-4">
+                    SmartEye will allow RedEye’s clients to have greater control over the information contained
+                    in their files, giving them the ability to search through uploaded files for specific information
+                    and metadata along with allowing them to upload a greater variety of file types.
+                    <br />
+                    <br />
+                    My part of the project is the data extractor of SmartEye, allowing users to upload files to the
+                    RedEye server which will then be converted to images and sent to Google Cloud Vision, with
+                    the results returned and stored in RedEye’s database. Clients/users will then be able to query
+                    RedEye’s servers for information on their files stored in the database.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Subrising/Golang-Stuff/tree/master/CV%20Project">
+                  See Project on GitHub
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/smarteye.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Valedictorian and Top Graduate</h3>
+                <div>
+                  <p class="mb-4">
+                    Completed Bachelor of Information Technology - Software Development Major with a GPA of 6.9 at Griffith University, Gold Coast.
+                    <br />
+                    <br />
+                    Finished highest of all graduates for my IT cohort in 2017, along with being the top graduate
+                    and Valedictorian for the graduating cohort of Science, Business, Education, and Technology in 2017.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://youtu.be/bswDa2Hb-yw">
+                  Full Valedictorian Speech
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/grad1.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <span class="mt-3">
+            <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/Subrising">See more of me on GitHub!</a>
+          </span>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            For any inquiries feel free to contact me on any of my socials below or my e-mail! <br /> Even if it's just for a friendly chat or coffee ;)
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:dzgray.life@gmail.com"
+            >E-mail Me!</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <h2 class="project-wrapper__text-title">
+          Socials
+        </h2>
+        <div class="social-links">
+          <a href="https://instagram.com/dzglife" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/david-gray-b60905102/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/Subrising" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
