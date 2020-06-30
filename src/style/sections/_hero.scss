@@ -15,8 +15,6 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
   background: url("../assets/nw.jpg");
   background-position: center;
   background-size: cover;
@@ -29,8 +27,6 @@
     align-items: center;
     text-align: center;
     margin-bottom: 10rem;
-    //margin-top: 5rem;
-    //padding-right: 0;
   }
 
   .hero-title {
